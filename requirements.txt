@@ -1,0 +1,53 @@
+# Complete dependencies for the entire project
+
+# ==============================================
+# BACKEND (FastAPI & Database)
+# ==============================================
+fastapi==0.128.0
+uvicorn[standard]==0.40.0
+python-multipart==0.0.6
+pydantic==2.12.5
+
+# ==============================================
+# DATA PROCESSING & ML
+# ==============================================
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+joblib==1.5.3
+imbalanced-learn==0.14.1          # For SMOTE class balancing
+xgboost==3.1.3                    # Gradient boosting classifier
+
+# ==============================================
+# NLP & NER
+# ==============================================
+spacy==3.8.11
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl
+nltk==3.9.2                        # For text preprocessing
+
+# ==============================================
+# FRONTEND (Streamlit)
+# ==============================================
+streamlit==1.53.0
+requests==2.32.5
+altair==6.0.0                      # For Streamlit charting
+
+# ==============================================
+# DATA ANALYSIS & VISUALIZATION
+# ==============================================
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# ==============================================
+# UTILITIES
+# ==============================================
+python-dotenv==1.0.0               # Environment variables
+tqdm==4.67.1                       # Progress bars
+click==8.3.1                       # CLI utilities
+pydeck==0.9.1                      # For map visualizations
+
+
+
+
+# to install everything: pip install -r requirements.txt
