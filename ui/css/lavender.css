@@ -1,0 +1,31 @@
+/* Light Lavender Theme */
+
+[data-testid="stAppViewContainer"] {
+    background-color: #f4f1fa;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #e6ddf5;
+}
+
+h1, h2, h3, h4 {
+    color: #4b3f72;
+}
+
+.stButton > button {
+    background-color: #b79ced;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #9f86e6;
+}
+
+.stTextInput input,
+.stTextArea textarea {
+    border-radius: 6px;
+    border: 1px solid #cbb8f0;
+}
