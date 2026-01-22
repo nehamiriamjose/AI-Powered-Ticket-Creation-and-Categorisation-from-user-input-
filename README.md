@@ -1,0 +1,2 @@
+# AI-Powered-Ticket-Creation-and-Categorisation-from-user-input-
+To automate the initial phase of ticket management by developing an AI system that can understand and process natural language requests from users. The system will automatically generate structured service tickets—including a title, description, category, and initial priority—from unstructured user input provided via chat, email, or a web form. 
