@@ -23,7 +23,7 @@ Setup Instructions
 Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate      # Windows
-# OR
+OR
 source venv/bin/activate   # Linux/Mac
 
 
@@ -47,3 +47,5 @@ Email alerts
 Advanced role-based access
 Cloud deployment
 Analytics and reporting module
+
+link:https://github.com/nehamiriamjose/AI-Powered-Ticket-Creation-and-Categorisation-from-user-input-/tree/main
